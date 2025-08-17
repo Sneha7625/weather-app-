@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form id="weather-form">
+            <input type="text" id="city-input" placeholder="Enter city name" required>
+            <button type="submit">Get Weather</button>
+        </form>
+        <div id="weather-result" class="weather-result"></div>
+        <div id="error-message" class="error-message"></div>
+
+        <!-- 5-Day Forecast Section -->
+        <div class="forecast-container">
+            <h2>5-Day Forecast</h2>
+            <div class="forecast" id="forecast"></div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 weather Website. All rights reserved. 
+            <br>Developed for Web Tech Project</br></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

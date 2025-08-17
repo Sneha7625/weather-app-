@@ -1,0 +1,111 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    color: #333;
+    background-image: url('back.jpeg'); /* Set the background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin-top: 100px;       
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.556); /* Semi-transparent white background */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+   
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    color: #080000; /* Blue color for the heading */
+}
+
+input {
+    padding: 15px;
+    border: px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    border-radius: 5px;
+    width: 70%; /* Responsive width */
+    margin-right: 10px; /* Space between input and button */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input:focus {
+    border-color: #000000; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px 15px; /* Increased padding for button */
+    border: none;
+    border-radius: 4px;
+    background-color: #036565; /* Blue background */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #1390ba; /* Darker blue on hover */
+    
+}
+
+.weather-result {
+    margin-top: 20px;
+    padding: 10px; /* Padding for the result box */
+    background-color: rgba(255, 255, 255, 0.732); /* Light background for results */
+    border: 1px solid #c8e6c9; /* Light green border */
+    border-radius: 5px; /* Rounded corners for result box */
+    display: none; /* Initially hidden */
+}
+
+.error-message {
+    color: red; /* Red color for error messages */
+    margin-top: 10px;
+    display: none; /* Initially hidden */
+}
+
+.forecast-container {
+    margin-top: 20px; /* Space above the forecast section */
+}
+
+.forecast {
+    display: flex; /* Use flexbox to arrange forecast items in a row */
+    justify-content: space-between; /* Space out the forecast items evenly */
+    margin-top: 10px; /* Space above the forecast items */
+}
+
+.forecast-item {
+    background-color: rgba(255, 255, 255, 0.588); /* Light background for each forecast item */
+    border-radius: 5px; /* Rounded corners for forecast items */
+    padding: 10px; /* Padding inside each forecast item */
+    text-align: center; /* Center text inside forecast items */
+    flex: 1; /* Allow items to grow equally */
+    margin: 0 5px; /* Space between items */
+}
+footer {
+    text-align: center; /* Center the text in the footer */
+   margin-top: 95px;
+    padding: 0px; /* Padding inside the footer */
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0); /* Light background for the footer */
+   
+    width: 100%; /* Full width */
+}
